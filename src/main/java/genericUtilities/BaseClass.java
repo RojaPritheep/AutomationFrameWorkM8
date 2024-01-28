@@ -2,6 +2,7 @@ package genericUtilities;
 
 import java.io.IOException;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -46,8 +47,8 @@ public void bcConfig(/*String B0ROWSER*/) throws IOException {
 //WebDriverManager.edgedriver().setup();
 	//driver =new EdgeDriver();
 	
-	WebDriverManager.firefoxdriver().setup();
-	driver =new FirefoxDriver();
+	WebDriverManager.chromedriver().setup();
+	driver =new ChromeDriver();
 	
 	
 	//if(BROWSER.equals("edge")) {
