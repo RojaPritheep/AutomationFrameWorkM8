@@ -26,7 +26,7 @@ import objectRepository.CreateNewContactPage;
 @Listeners(genericUtilities.ListenersImplementation.class)
 public class CreateContactTest extends BaseClass{
 	@Test(groups="SmokeSuite")
-	public void createContact() throws IOException, InterruptedException {
+	public void createContactWithMandatoryInfo() throws IOException, InterruptedException {
 		
 
 	

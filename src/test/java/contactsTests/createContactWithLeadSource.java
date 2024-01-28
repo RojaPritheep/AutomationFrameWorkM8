@@ -21,31 +21,13 @@ import objectRepository.LoginPage;
 public class createContactWithLeadSource extends BaseClass{
 	
 	
-	@Test(groups ="SmokeSuite")
+	@Test(groups ="RegressionSuite")
 	public void createContactWithLead() throws IOException, InterruptedException {
 		
-//		PropertyFileUtility p=new PropertyFileUtility();
-	//	ExcelFileUtility e=new ExcelFileUtility();
-		//SeleniumUtility s= new SeleniumUtility();
-		
-//			String URL =p.readDataFromPropertyFile("url");
-	//        String USERNAME = p.readDataFromPropertyFile("username");
-	  //      String PASSWORD = p.readDataFromPropertyFile("password");
 	        
 	        String LASTNAME= eUtil.readDataFromExcel("Sheet1", 3, 2);
 	        String LEADSOURCE=eUtil.readDataFromExcel("Sheet1", 3,3 );
-	        //launch the browser
-	     //   WebDriverManager.edgedriver().setup();
-	//		WebDriver driver=new EdgeDriver();
-		//	s.maximizeWindow(driver);
-			//s.addimplicityWait(driver);RegressionSuite
-			//2.load the url
-	   //     driver.get(URL);
-	        
-	        //3.login to the application
-	    //    LoginPage lp=new LoginPage(driver);
-	    //    lp.loginToApp(USERNAME, PASSWORD);
-		
+	   
 	        //4.navigate to contact link
 	        HomePage hp=new HomePage(driver);
 	        hp.clickOnContactsLink();
