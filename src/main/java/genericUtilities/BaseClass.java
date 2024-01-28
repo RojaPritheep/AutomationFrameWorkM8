@@ -49,7 +49,8 @@ public void bcConfig(/*String B0ROWSER*/) throws IOException {
 	
 	WebDriverManager.chromedriver().setup();
 	driver =new ChromeDriver();
-	
+//	WebDriverManager.firefoxdriver().setup();
+//		driver =new FirefoxDriver();
 	
 	//if(BROWSER.equals("edge")) {
 	//	WebDriverManager.edgedriver().setup();

@@ -57,7 +57,7 @@ public class CreateContactTest extends BaseClass{
 	
 			
 			@Test
-			public void  demoTest()
+		public void  demoTest()
 			{
 				Assert.fail();
 				System.out.println("Hi");
