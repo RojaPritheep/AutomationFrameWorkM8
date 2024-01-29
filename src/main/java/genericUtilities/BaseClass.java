@@ -44,13 +44,13 @@ public void bsconfig() {
 public void bcConfig(/*String B0ROWSER*/) throws IOException {
 	String URL = pUtil.readDataFromPropertyFile("url");
 	
-//WebDriverManager.edgedriver().setup();
-	//driver =new EdgeDriver();
+WebDriverManager.edgedriver().setup();
+	driver =new EdgeDriver();
 	
 //	WebDriverManager.chromedriver().setup();
-	//driver =new ChromeDriver();
-	WebDriverManager.firefoxdriver().setup();
-		driver =new FirefoxDriver();
+//	driver =new ChromeDriver();
+//	WebDriverManager.firefoxdriver().setup();
+	//	driver =new FirefoxDriver();
 	
 	//if(BROWSER.equals("edge")) {
 	//	WebDriverManager.edgedriver().setup();
